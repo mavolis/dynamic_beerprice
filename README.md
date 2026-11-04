@@ -1,6 +1,6 @@
 # Beer Price Exchange
 
-A small Tkinter + Matplotlib desktop app that shows a live, stock-ticker-style beer price.
+A small Tkinter + Matplotlib desktop app that shows a live, stock-ticker-style beer price. I vibe coded this on the following weekend after the Super Bowl, after being inspired by how the bar I watched the Super Bowl at designed their beer prices.
 
 ## Files
 - `app.py` — the GUI: price display, live chart, and a **BUY** button. It runs two loops: a price tick every 500 ms and a ~30 fps render loop that moves the line smoothly between ticks.
